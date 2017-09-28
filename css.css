@@ -1,0 +1,100 @@
+body{
+background: url("imagenes/fondo.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;   
+}
+h1{
+text-align: center;
+    color:orange;
+    
+}
+h2{
+text-align: center;
+color:orange;
+}
+h3{
+text-align: center;
+color:orange;
+}
+h4{
+    text-align: center;
+ color:orange;
+}
+    p{
+color:orange;
+    }
+    h4{
+     color:orange;
+
+    }
+ul{
+ color:orange;
+}
+a{
+color:orange;
+}
+a#color{
+    color:aquamarine;
+}
+img#star{
+    margin-left:300px;
+    
+}
+img#video{
+    margin-left:360px;
+}
+p{
+color:orange;
+    
+}
+*{
+    margin:0px;
+    padding:0px;
+
+}
+div#general{
+    margin:auto;
+    width:1170px;
+    height:1170px;    
+}
+div#catalogo{
+    float:left;
+    width:100px;
+    height:100px;
+    position: relative;
+     top: 40px;
+}
+div#contenido{
+    float:right;
+    width:1050px;
+    height:100px;
+
+}
+p#juegos{
+    text-align: center;
+}
+textarea#correo{
+    width:1000px;
+    height:20px;
+}
+textarea#mensaje{
+    width:1000px;
+    height:1000px;
+}
+.slider{
+    width:95%;
+    margin:auto;
+    overflow: hidden;
+}
+.slider ul{
+    padding:0;
+    display:flex;
+    width:2000cm;
+    animation: cambio 20s infinite alternate linear;
+
+}
+*{
+  box-sizing:border-box;
+}
